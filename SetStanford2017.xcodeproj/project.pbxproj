@@ -35,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284343C42092458500581098 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2888C1C52090FC3000667B08 /* AppDelegate.swift */,
+				2888C1CC2090FC3200667B08 /* Assets.xcassets */,
+				2888C1CE2090FC3200667B08 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		2888C1B92090FC3000667B08 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +64,9 @@
 		2888C1C42090FC3000667B08 /* SetStanford2017 */ = {
 			isa = PBXGroup;
 			children = (
-				2888C1C52090FC3000667B08 /* AppDelegate.swift */,
+				284343C42092458500581098 /* Supporting */,
 				2888C1C72090FC3000667B08 /* ViewController.swift */,
 				2888C1C92090FC3100667B08 /* Main.storyboard */,
-				2888C1CC2090FC3200667B08 /* Assets.xcassets */,
-				2888C1CE2090FC3200667B08 /* LaunchScreen.storyboard */,
 				2888C1D12090FC3200667B08 /* Info.plist */,
 			);
 			path = SetStanford2017;
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QYLX323BC;
 				INFOPLIST_FILE = SetStanford2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QYLX323BC;
 				INFOPLIST_FILE = SetStanford2017/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
